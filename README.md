@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Version](https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![image](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/simcoder_here)
@@ -14,7 +15,7 @@
 
   <h3 align="center">Uber Clone</h3>
 
-  <p align="center">
+  <p align ="center">
     A Uber clone app made with android native (java) and firebase
     <br />
     <a href="https://github.com/SimCoderYoutube/UberClone/wiki"><strong>Explore the docs »</strong></a>
@@ -110,3 +111,6 @@ This project is [MIT](https://github.com/SimCoderYoutube/UberClone/blob/master/L
 - Twitter: [@simcoder_here](https://twitter.com/simcoder_here)
 - Github: [@simcoderYoutube](https://github.com/simcoderYoutube)
 - Youtube: [SimCoder](https://www.youtube.com/channel/UCQ5xY26cw5Noh6poIE-VBog)
+=======
+# Ride-one
+>>>>>>> 529f614ae2ebed4e489885d8bc013ac09288bc8b
