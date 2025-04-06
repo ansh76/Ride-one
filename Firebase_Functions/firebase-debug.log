@@ -1,0 +1,127 @@
+[debug] [2025-04-06T16:07:37.179Z] ----------------------------------------------------------------------
+[debug] [2025-04-06T16:07:37.196Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-06T16:07:37.197Z] CLI Version:   14.1.0
+[debug] [2025-04-06T16:07:37.197Z] Platform:      win32
+[debug] [2025-04-06T16:07:37.197Z] Node Version:  v22.14.0
+[debug] [2025-04-06T16:07:37.198Z] Time:          Sun Apr 06 2025 21:37:37 GMT+0530 (India Standard Time)
+[debug] [2025-04-06T16:07:37.198Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-06T16:07:37.628Z] Object "/hosting" in "firebase.json" has unknown property: {"additionalProperty":"scripts"}
+[debug] [2025-04-06T16:07:37.629Z] Field "/hosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-06T16:07:37.629Z] Field "/hosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[debug] [2025-04-06T16:07:37.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T16:07:37.639Z] > authorizing via signed-in user (aansh6435@gmail.com)
+[debug] [2025-04-06T16:07:37.641Z] Object "/hosting" in "firebase.json" has unknown property: {"additionalProperty":"scripts"}
+[debug] [2025-04-06T16:07:37.641Z] Field "/hosting" in "firebase.json" is possibly invalid: must be array
+[debug] [2025-04-06T16:07:37.641Z] Field "/hosting" in "firebase.json" is possibly invalid: must match a schema in anyOf
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\HP\Downloads\UberClone-master\UberClone-master\Firebase_Functions
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-06T16:08:03.403Z] Using project from CLI flag: rideone-c6e2d
+[debug] [2025-04-06T16:08:03.406Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:03.406Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:03.409Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rideone-c6e2d [none]
+[debug] [2025-04-06T16:08:04.270Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rideone-c6e2d 200
+[debug] [2025-04-06T16:08:04.270Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rideone-c6e2d {"projectId":"rideone-c6e2d","projectNumber":"830523363956","displayName":"RideOne","name":"projects/rideone-c6e2d","resources":{"hostingSite":"rideone-c6e2d"},"state":"ACTIVE","etag":"1_8b394d05-ebec-4c06-9499-d1307fb94ac7"}
+[info] i  Using project rideone-c6e2d (RideOne) 
+[info] 
+=== Functions Setup
+[debug] [2025-04-06T16:08:04.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-06T16:08:04.280Z] > authorizing via signed-in user (aansh6435@gmail.com)
+[debug] [2025-04-06T16:08:04.280Z] [iam] checking project rideone-c6e2d for permissions ["firebase.projects.get"]
+[debug] [2025-04-06T16:08:04.281Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:04.281Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:04.281Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/rideone-c6e2d:testIamPermissions [none]
+[debug] [2025-04-06T16:08:04.282Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/rideone-c6e2d:testIamPermissions x-goog-quota-user=projects/rideone-c6e2d
+[debug] [2025-04-06T16:08:04.282Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rideone-c6e2d:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-04-06T16:08:05.812Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/rideone-c6e2d:testIamPermissions 200
+[debug] [2025-04-06T16:08:05.812Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/rideone-c6e2d:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-04-06T16:08:05.813Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:05.814Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:05.814Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:05.814Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:08:05.814Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-04-06T16:08:05.814Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/rideone-c6e2d
+[debug] [2025-04-06T16:08:05.816Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-04-06T16:08:05.816Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/rideone-c6e2d
+[debug] [2025-04-06T16:08:07.669Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/runtimeconfig.googleapis.com 200
+[debug] [2025-04-06T16:08:07.669Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-04-06T16:08:07.690Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/cloudfunctions.googleapis.com 200
+[debug] [2025-04-06T16:08:07.691Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/rideone-c6e2d/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/.eslintrc.js 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
+[info] 
+=== Apphosting Setup
+[debug] [2025-04-06T16:09:35.597Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:09:35.598Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:09:35.598Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/rideone-c6e2d/billingInfo [none]
+[debug] [2025-04-06T16:09:37.357Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/rideone-c6e2d/billingInfo 200
+[debug] [2025-04-06T16:09:37.357Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/rideone-c6e2d/billingInfo {"name":"projects/rideone-c6e2d/billingInfo","projectId":"rideone-c6e2d","billingAccountName":"","billingEnabled":false}
+[info] i  Writing default settings to apphosting.yaml... 
+[info] +  Wrote apphosting.yaml 
+[info] +  Create a new App Hosting backend with `firebase apphosting:backends:create` 
+[info] 
+=== Hosting Setup
+[debug] [2025-04-06T16:09:37.362Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:09:37.363Z] Checked if tokens are valid: true, expires at: 1743957649768
+[debug] [2025-04-06T16:09:37.363Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/rideone-c6e2d [none]
+[debug] [2025-04-06T16:09:38.034Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/rideone-c6e2d 200
+[debug] [2025-04-06T16:09:38.034Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/rideone-c6e2d {"projectId":"rideone-c6e2d","projectNumber":"830523363956","displayName":"RideOne","name":"projects/rideone-c6e2d","resources":{"hostingSite":"rideone-c6e2d"},"state":"ACTIVE","etag":"1_8b394d05-ebec-4c06-9499-d1307fb94ac7"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote Firebase_Functions/404.html 
+[debug] [2025-04-06T16:10:14.309Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-04-06T16:10:14.528Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-04-06T16:10:14.528Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.6.0","browserURL":"https://www.gstatic.com/firebasejs/11.6.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.6.0/firebase.tgz"},"live":{"version":"11.6","browserURL":"https://www.gstatic.com/firebasejs/live/11.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.6.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.6.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.6.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.6.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.6.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.6.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.6.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.6.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.6.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.6.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.6.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.memory.js"}}
+[info] +  Wrote Firebase_Functions/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\HP\Downloads\UberClone-master\UberClone-master\Firebase_Functions is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=459082624&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-04-06T16:10:24.217Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-04-06T16:10:24.218Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-04-06T16:10:24.689Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-04-06T16:10:24.689Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-04-06T16:10:24.710Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-04-06T16:10:25.137Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-04-06T16:10:25.137Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"ansh76","id":117460815,"node_id":"U_kgDOBwBPTw","avatar_url":"https://avatars.githubusercontent.com/u/117460815?v=4","gravatar_id":"","url":"https://api.github.com/users/ansh76","html_url":"https://github.com/ansh76","followers_url":"https://api.github.com/users/ansh76/followers","following_url":"https://api.github.com/users/ansh76/following{/other_user}","gists_url":"https://api.github.com/users/ansh76/gists{/gist_id}","starred_url":"https://api.github.com/users/ansh76/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/ansh76/subscriptions","organizations_url":"https://api.github.com/users/ansh76/orgs","repos_url":"https://api.github.com/users/ansh76/repos","events_url":"https://api.github.com/users/ansh76/events{/privacy}","received_events_url":"https://api.github.com/users/ansh76/received_events","type":"User","user_view_type":"private","site_admin":false,"name":"Ansh  Sharma","company":"Medicaps University","blog":"https://ansh76-portfolio.netlify.app/","location":"Indore","email":null,"hireable":true,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":10,"public_gists":0,"followers":1,"following":0,"created_at":"2022-11-04T14:13:00Z","updated_at":"2025-02-04T06:19:48Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":48896,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as ansh76 
+[info] 

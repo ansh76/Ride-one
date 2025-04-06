@@ -1,0 +1,26 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral() // Use mavenCentral instead of jcenter (jcenter is deprecated)
+        maven { url 'https://plugins.gradle.org/m2/' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.2' // Updated Gradle version
+        classpath 'com.google.gms:google-services:4.3.10' // Updated Google services
+        classpath 'gradle.plugin.com.onesignal:onesignal-gradle-plugin:0.12.5'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral() // Use mavenCentral instead of jcenter
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
